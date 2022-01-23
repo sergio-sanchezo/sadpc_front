@@ -1,0 +1,22 @@
+.card {
+  max-width: 300px;
+  .settings {
+    .data {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      label {
+        text-align: right;
+        font-weight: bolder;
+        &::after {
+          content: ":";
+        }
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+}

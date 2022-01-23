@@ -1,0 +1,28 @@
+.logContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  .logContainer__data {
+    background-color: #fff;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    .logContainer__data--title {
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(148, 148, 148, 0.377);
+    }
+
+    .logContainer__data__form {
+      .logContainer__data__form__item {
+        margin: 40px;
+      }
+    }
+  }
+}

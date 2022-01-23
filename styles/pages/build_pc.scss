@@ -1,0 +1,26 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .main__info__container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+
+  .transfer__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .transfer__buttons {
+      margin-top: 15px;
+      .transfer__buttons__element {
+        margin: 10px;
+      }
+    }
+  }
+}
