@@ -18,14 +18,6 @@ const index = () => {
     getData();
   }, []);
 
-  const mockData = [] as any;
-  for (let i = 0; i < 4; i++) {
-    mockData.push({
-      key: i.toString(),
-      title: `content${i + 1}`,
-      description: `description of content${i + 1}`,
-    });
-  }
   //   console.log(mockData);
   return (
     <Layout selectedKey={["8"]}>

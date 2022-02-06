@@ -42,8 +42,6 @@ const MakePc = (props: { data: any }) => {
   };
 
   const onSelectChange = (sourceSelectedKeys: any, targetSelectedKeys: any) => {
-    // console.log("sourceSelectedKeys:", sourceSelectedKeys);
-    // console.log("targetSelectedKeys:", targetSelectedKeys);
     setSelectedKeys([...sourceSelectedKeys, ...targetSelectedKeys]);
   };
 
